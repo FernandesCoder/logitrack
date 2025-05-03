@@ -82,4 +82,4 @@ Esse projeto está licenciado sob a [MIT License](LICENSE).
 
 ## 📝 Autor
 
-Feito por **FernandesCoder** (seu nome ou pseudônimo). Sinta-se à vontade para entrar em contato!
+Feito por **FernandesCoder**. Sinta-se à vontade para entrar em contato!
