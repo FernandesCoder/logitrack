@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+    <a href="/add_vehicle" class="btn btn-primary mb-3">Adicionar Veículo</a>
+    <a href="/add_fuel" class="btn btn-secondary mb-3">Registrar Abastecimento</a>
+    <h3>Veículos Cadastrados:</h3>
+    <ul>
+        {% for v in vehicles %}
+        <li>{{ v.name }} ({{ v.type }})</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

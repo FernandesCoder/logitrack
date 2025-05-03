@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+    <form method="POST">
+        <div class="mb-3">
+            <label class="form-label">Veículo</label>
+            <select name="vehicle" class="form-control">
+                {% for v in vehicles %}
+                <option value="{{ v.id }}">{{ v.name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Data</label>
+            <input type="text" name="date" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Litros Abastecidos</label>
+            <input type="text" name="liters" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">KM ou Horas Trabalhadas</label>
+            <input type="text" name="km_or_hours" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-success">Registrar</button>
+    </form>
+{% endblock %}
