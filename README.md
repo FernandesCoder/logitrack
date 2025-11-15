@@ -5,8 +5,9 @@
 
 ## 🔧 Tecnologias Usadas
 
-- **Backend**: Node.js, Express
-- **Banco de Dados**: MongoDB
+- **Backend**: Python
+- **Frontend**: HTML
+- **Banco de Dados**: SQLite
 - **Outras Ferramentas**: Git, GitHub
 
 ## 🛠 Funcionalidades
@@ -21,7 +22,7 @@
 
 ### Pré-requisitos
 
-1. **Node.js** instalado (se não tiver, [faça o download aqui](https://nodejs.org/))
+1. **Python** instalado (se não tiver, [faça o download aqui](https://www.python.org/downloads/))
 2. **MongoDB** rodando localmente ou com uma instância na nuvem (use [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
 
 ### Passos para rodar:
